@@ -4,7 +4,7 @@
 
 This is a very simple python script that change your MAC address in linux.
 Of course it use macchanger.
-If iwconfig gives you back wireless interface like "wlan0" choose the directory "wlan type". 
+If iwconfig gives you back wireless interface like "wlan0" choose the directory "wlan type".\
 If iwconfig gives you back wireless interface like "wlp3s0" choose the directory "wlp3s type"
 
 
