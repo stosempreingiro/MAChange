@@ -3,7 +3,6 @@
 # MAChange by stosempreingiro
 
 This is a very simple python script that change your MAC address in linux.
-Of course it use macchanger.
 
 
 ## Features of MAChange 
