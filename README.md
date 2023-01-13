@@ -1,12 +1,12 @@
 
 **Disclaimer** : This software is meant for educational purposes only. I'm not responsible for any malicious use of the app.
-# MAChanger by stosempreingiro
+# MAChange by stosempreingiro
 
 This is a very simple python script that change your MAC address in linux.
 Of course it use macchanger.
 
 
-## Features of MAChanger 
+## Features of MAChange 
 * change MAC address automatically
 * change MAC address manually
 
