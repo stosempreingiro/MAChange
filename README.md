@@ -2,7 +2,7 @@
 **Disclaimer** : This software is meant for educational purposes only. I'm not responsible for any malicious use of the app.
 # MAChange by stosempreingiro
 
-This is a very simple python script that change your MAC address in linux.
+This is a very simple python script that change your MAC address on debian based distro.
 
 
 ## Features of MAChange 
@@ -17,7 +17,9 @@ This MAC changer requires macchanger and net-tools to work. Install them automat
 ```
 git clone https://github.com/stosempreingiro/MAChange.git
 cd MAChanger
-cd wlan\ type or cd wlp3\ type
+cd wlan\ type 
+'or'
+cd wlp3\ type
 chmod +x install.sh && ./install.sh
 ```
 # How to use
@@ -28,13 +30,13 @@ Run 'sudo mac' on your terminal.\
 ENJOY
 
 ## Examples
-* changed MAC address automatically
+* change MAC address automatically
 <p align="center">
   <img src="Screenshots/auto.png" width="800"/>
 </p>
 -----------------------------------------------------------------------------------------------------------------------
 
-* changed MAC address manually 
+* change MAC address manually 
 <p align="center">
   <img src="Screenshots/man.png" width="800"/>
 </p>
