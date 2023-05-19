@@ -36,17 +36,3 @@ sudo ./install.sh
 # How to use
 Run 'sudo mac' on your terminal.\
 ENJOY
-
-## Examples
-* change MAC address automatically
-<p align="center">
-  <img src="Screenshots/auto.png" width="800"/>
-</p>
------------------------------------------------------------------------------------------------------------------------
-
-* change MAC address manually 
-<p align="center">
-  <img src="Screenshots/man.png" width="800"/>
-</p>
------------------------------------------------------------------------------------------------------------------------
-
