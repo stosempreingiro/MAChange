@@ -9,7 +9,7 @@ This is a very simple python script that change your MAC address on debian based
 * change MAC address automatically
 
 ## Prerequisites
-This MAC changer requires macchanger and net-tools to work. Install them automatically with 'install.sh' file
+This MAC changer script requires macchanger and python3-netifaces to work. Install them automatically with 'install.sh' file.
 
 ## Installation
 Manual:
