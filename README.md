@@ -14,18 +14,26 @@ This is a very simple python script that change your MAC address on debian based
 This MAC changer requires macchanger and net-tools to work. Install them automatically with 'install.sh' file
 
 ## Installation
+Manual:
 ```
 git clone https://github.com/stosempreingiro/MAChange.git
-cd MAChanger
-cd wlan\ type 
-'or'
-cd wlp3\ type
-chmod +x install.sh && ./install.sh
 ```
+```
+sudo apt install python3-netifaces 
+```
+if doesn't work, try:
+```
+pip3 install netifaces
+```
+Auto installation:
+```
+chmod +x install.sh
+```
+```
+sudo ./install.sh
+```
+
 # How to use
-If iwconfig gives you back wireless interface like "wlan0" choose the directory "wlan type".\
-If iwconfig gives you back wireless interface like "wlp3s0" choose the directory "wlp3s type".\
-Install all you need with './install.sh'\
 Run 'sudo mac' on your terminal.\
 ENJOY
 
