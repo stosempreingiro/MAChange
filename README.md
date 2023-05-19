@@ -14,7 +14,7 @@ This MAC changer script requires macchanger and python3-netifaces to work. Insta
 ## Installation
 Manual:
 ```
-git clone https://github.com/stosempreingiro/MAChange.git
+git clone https://github.com/stosempreingiro/MAChange.git && cd MAChange
 ```
 ```
 sudo apt install python3-netifaces 
