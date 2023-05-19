@@ -3,9 +3,9 @@ sudo apt update
 echo "INSTALLING MACCHANGER"
 sudo apt install macchanger -y
 sudo apt install python3
-sudo apt install python3-pip
+sudo apt install python3-pip -y
 python3 -m pip install netifaces
-sudo apt install python3-netifaces
+sudo apt install python3-netifaces -y
 sudo mv mac.py /usr/local/bin/mac
 sudo chmod +x /usr/local/bin/mac
 clear -x
