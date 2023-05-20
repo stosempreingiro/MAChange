@@ -1,15 +1,15 @@
 #!/usr/bin/python3
-import subprocess
-import netifaces
+from subprocess import call
+from netifaces import interfaces
 
 def macchanger(interfaccia):
-    subprocess.call(["sudo", "service","NetworkManager","stop"])
-    subprocess.call(["sudo","ifconfig",interfaccia,"down"])
-    subprocess.call(["sudo","macchanger","-r",interfaccia])
-    subprocess.call(["sudo","ifconfig",interfaccia,"up"])
-    subprocess.call(["sudo", "service","NetworkManager","start"])
+    call(["sudo", "service","NetworkManager","stop"])
+    call(["sudo","ifconfig",interfaccia,"down"])
+    call(["sudo","macchanger","-r",interfaccia])
+    call(["sudo","ifconfig",interfaccia,"up"])
+    call(["sudo", "service","NetworkManager","start"])
 
-interfacce=netifaces.interfaces()
+interfacce=interfaces()
 i,j=1,0
 for interfaccia in interfacce:
     if interfaccia=="lo":continue
