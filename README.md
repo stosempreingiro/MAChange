@@ -19,7 +19,7 @@ git clone https://github.com/stosempreingiro/MAChange.git && cd MAChange
 ```
 sudo apt install python3-netifaces 
 ```
-if doesn't work, try:
+if it doesn't work, try:
 ```
 pip3 install netifaces
 ```
