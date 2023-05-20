@@ -9,7 +9,7 @@ sudo apt install python3-netifaces -y
 sudo mv mac.py /usr/local/bin/mac
 sudo chmod +x /usr/local/bin/mac
 clear -x
-echo "INSTALLAZIONE RIUSITA"
+echo "INSTALLAZIONE COMPLETATA"
 echo "[IT] Scrivi 'sudo mac' nel tuo terminale per cominciare"
 echo "[EN] Installatione complete. Write 'sudo mac' on your terminal."
 sleep 0.7
