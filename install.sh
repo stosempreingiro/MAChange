@@ -15,5 +15,6 @@ echo "INSTALLAZIONE COMPLETATA"
 echo "[IT] Scrivi 'sudo mac' nel tuo terminale per cominciare"
 echo "[EN] Installatione complete. Write 'sudo mac' on your terminal."
 sleep 0.7
+echo " "
 echo "Source code: https://github.com/stosempreingiro/MAChange"
 echo "-stosempreingiro"
