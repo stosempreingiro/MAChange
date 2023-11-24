@@ -2,8 +2,7 @@
 sudo apt update
 echo "INSTALLING MACCHANGER, GIT and Python3-Netifaces" && sleep 3
 sudo apt install macchanger -y
-sudo apt install git -y
-sudo apt install python3
+sudo apt install python3 -y
 sudo apt install python3-pip -y
 python3 -m pip install netifaces
 sudo apt install python3-netifaces -y
