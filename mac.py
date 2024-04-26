@@ -16,7 +16,7 @@ for interfaccia in interfacce:
     print(str(i)+")",interfaccia)
     i+=1
 try:
-    user=input("Scegli interfaccia: ")
+    user=input("Choose an interface: ")
     if user=="exit":
         exit()
     else:
@@ -28,7 +28,8 @@ try:
                     macchanger(interfacce[j])
                     break
             else:
-                print("[!] mmh.. non conosco questa interfaccia")
+                print("[!] Error: Interface doesn't exists.")
                 break
-except ValueError:
-    print("[!] mmh.. qualcosa è andato storto.. riprova.")
+except:
+    print("[!] Exiting")
+    exit()
